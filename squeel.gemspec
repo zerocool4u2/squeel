@@ -20,14 +20,14 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'activerecord', '>= 3.0'
   s.add_dependency 'activesupport', '>= 3.0'
-  s.add_dependency 'polyamorous', '~> 1.1.0'
-  s.add_development_dependency 'rspec', '~> 2.6.0'
-  s.add_development_dependency 'faker', '~> 0.9.5'
-  s.add_development_dependency 'sqlite3', '~> 1.3.3'
-  s.add_development_dependency 'mysql', '~> 2.9.1'
-  s.add_development_dependency 'mysql2', '~> 0.3.16'
-  s.add_development_dependency 'pg', '~> 0.17.1'
-  s.add_development_dependency 'git_pretty_accept', '~> 0.4.0'
+  s.add_dependency 'polyamorous', '>= 1.1.0'
+  s.add_development_dependency 'rspec', '>= 2.6.0'
+  s.add_development_dependency 'faker', '>= 0.9.5'
+  s.add_development_dependency 'sqlite3', '>= 1.3.3'
+  s.add_development_dependency 'mysql', '>= 2.9.1'
+  s.add_development_dependency 'mysql2', '>= 0.3.16'
+  s.add_development_dependency 'pg', '>= 0.17.1'
+  s.add_development_dependency 'git_pretty_accept', '>= 0.4.0'
   s.add_development_dependency 'pry'
 
   s.files         = `git ls-files`.split("\n")
